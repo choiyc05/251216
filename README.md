@@ -118,6 +118,10 @@ href 속성 이름 <br>
 	font-style,"글꼴의 스타일을 설정합니다. italic (기울임), normal (보통), oblique (기울임) 등이 있습니다.",italic
 	font-variant,글꼴의 변형을 설정합니다. small-caps는 작은 대문자로 글자를 표시합니다. (모든 소문자를 작은 크기의 대문자로 변환),small-caps
 	line-height,줄의 높이를 설정합니다. 행과 행 사이의 간격을 조절합니다.,2em
+
+		1em = 16px (일반적)
+		1vw = 1%
+		font-size: 5vw; 화면의 5%크기로 창 크기 드래그하면 글자 크기가 변함.
 		
 		/*	폰트 가져오기 */
 		<link rel="preconnect" href="https://fonts.googleapis.com">
