@@ -133,7 +133,40 @@ href 속성 이름 <br>
 		</style>
 
 		
+# 영역 알아보기 study_12
 
+		[overflow]
+		visible - Default. The overflow is not clipped. The content renders outside the element's box
+		hidden - The overflow is clipped, and the rest of the content is hidden
+		scroll - Scrollbars are added. User must scroll to see all content
+		auto - Similar to scroll, but adds scrollbars only when necessary
+		ex) overflow: scroll;
+		
+		[position] ==========================================
+		static | relative | absoulte | fixed | sticky
+
+		1) static
+		- 원래 자기 자리
+		- top, left 등 인식 안 됨 : 위치 이동 안 됨
+
+		2) relative
+		- 기존 영역 그대로 인식
+		- 원래 자기 위치에서 이동
+		- 즉, static 기준으로 이동
+
+		3) absoulate
+		- 기존 영역 인식 안 함
+		- 상위 엘리먼트 기준으로 이동
+		- static인 상위 엘리먼트 제외
+		- 상위 엘리먼트가 body 일 경우, 웹 브라우저 기준
+
+		4) fixed
+		- absoulate 와 비슷
+		- 화면이 스크롤 되어도 그 위치 그대로
+		- 무조건 웹 브라우저 기준
+		=====================================================
+
+		
 
 
 
