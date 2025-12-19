@@ -5,18 +5,19 @@
 
  
 # 선택자 study_06
-동일한 대상이면 마지막 설정된 값으로 설정 됨 <br>
-href 속성 이름 <br>
-
-선택자 : 태그, 아이디, 클래스 <br>
-		============================================ <br>
-		= 전체 일치 <br>
-		^= 시작하는 <br>
-		$= 끝나는 <br>
-		*= 일부 문자 (단어 중 일부 문자) <br>
-		~= 단어 일치 <br>
-		============================================ <br>
-사용 예시) a[href^="https"] {background-color: purple; color:#fff;} <br>
+	동일한 대상이면 마지막 설정된 값으로 설정 됨
+	href 속성 이름 
+```html
+		선택자 : 태그, 아이디, 클래스
+		============================================
+		= 전체 일치
+		^= 시작하는 
+		$= 끝나는
+		*= 일부 문자 (단어 중 일부 문자)
+		~= 단어 일치 
+		============================================ 
+		
+		사용 예시) a[href^="https"] {background-color: purple; color:#fff;}
 
 	/* 방문하지않은 link */
 		a:link{
@@ -65,6 +66,7 @@ href 속성 이름 <br>
 			background-color: gray;
 			color: blue;
 		} 
+```
 
 # 폰트 알아보기 study_07
 	rcolor: #ff0000;
@@ -134,7 +136,7 @@ href 속성 이름 <br>
 
 		
 # 영역 알아보기 study_12
-
+```html
 		[overflow]
 		visible - Default. The overflow is not clipped. The content renders outside the element's box
 		hidden - The overflow is clipped, and the rest of the content is hidden
@@ -165,7 +167,7 @@ href 속성 이름 <br>
 		- 화면이 스크롤 되어도 그 위치 그대로
 		- 무조건 웹 브라우저 기준
 		=====================================================
-
+```
 		
 
 
